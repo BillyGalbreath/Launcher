@@ -9,8 +9,15 @@ package com.skcraft.launcher.dialog;
 import com.skcraft.launcher.swing.ActionListeners;
 import net.miginfocom.swing.MigLayout;
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JButton;
+import javax.swing.JComponent;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.KeyStroke;
+import javax.swing.WindowConstants;
+import java.awt.BorderLayout;
+import java.awt.Window;
 import java.awt.event.KeyEvent;
 
 public class AboutDialog extends JDialog {

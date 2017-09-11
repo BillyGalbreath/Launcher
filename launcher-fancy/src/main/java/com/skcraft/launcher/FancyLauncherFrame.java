@@ -11,7 +11,8 @@ import com.skcraft.launcher.swing.SwingHelper;
 import com.skcraft.launcher.swing.WebpagePanel;
 import lombok.NonNull;
 
-import javax.swing.*;
+import javax.swing.BorderFactory;
+import javax.swing.JPanel;
 
 public class FancyLauncherFrame extends LauncherFrame {
 
@@ -24,6 +25,7 @@ public class FancyLauncherFrame extends LauncherFrame {
         super(launcher);
 
         setSize(800, 500);
+        setResizable(false);
         setLocationRelativeTo(null);
 
         SwingHelper.removeOpaqueness(getInstancesTable());
