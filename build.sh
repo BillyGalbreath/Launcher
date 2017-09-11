@@ -1,3 +1,3 @@
 #!/bin/sh
 ./gradlew clean build
-read -p "Press any key to continue..."
+cp launcher-fancy/build/libs/launcher*-all.jar ./Pl3xForge.jar
